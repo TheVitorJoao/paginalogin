@@ -1,0 +1,90 @@
+<style> 
+
+    { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+body 
+    { 
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, sans-serif; 
+    background-image: url('https://4.bp.blogspot.com/-3YwFT7wiDnE/VT5NLGC20qI/AAAAAAABC8Y/tQcMBoQkbEk/s1600/adffb142a07755f9fc4e1400e3491ae32.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    }
+
+form
+    { 
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(255 ,255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 85 55 10px rgba(0, 0, 0, 0.2);
+    }
+
+h3
+    { 
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-left: 75px;
+    }
+
+input
+    { 
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    }
+
+
+input[type= "submit"]
+    { 
+    background-color: #33a214;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 5px;   
+    }
+
+
+input[type= "submit"]:hover 
+    { 
+    background-color: #40b935;
+    }
+
+
+    /* Responsividade*/
+@media screen and (max-width: 600px)
+
+    { 
+
+    form 
+        {  
+        width: 90%;
+        padding: 15px;
+        }
+
+h3 
+    { 
+    font-size: 20px;
+    }
+
+input
+    { 
+    height: 25px;
+    }
+
+}
+</style> 
